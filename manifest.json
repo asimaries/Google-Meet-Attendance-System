@@ -2,7 +2,7 @@
   "name": "Google-Meet-Attendance-Tracker",
   "version": "0.0.1",
   "manifest_version": 2,
-  "permissions": ["tabs", "contextMenus", "https://meet.google.com/*"],
+  "permissions": ["activeTab", "contextMenus", "https://meet.google.com/*"],
   "browser_action": {
     "default_title": "Attendance System",
     "default_popup": "popout.html"
